@@ -1,0 +1,17 @@
+{
+    "name": "x1125/firebase-admin-sdk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "x1125",
+            "email": "x1125io@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"FirebaseAdminSDK\\": "src/"}
+    },
+    "require": {
+        "firebase/php-jwt": "^4.0"
+    }
+}
