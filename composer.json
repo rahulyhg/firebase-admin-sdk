@@ -1,7 +1,13 @@
 {
     "name": "x1125/firebase-admin-sdk",
-    "type": "library",
+    "description": "Firebase Admin SDK",
+    "homepage": "https://github.com/x1125/firebase-admin-sdk",
     "license": "MIT",
+    "keywords": [
+        "firebase",
+        "REST",
+        "wrapper"
+    ],
     "authors": [
         {
             "name": "x1125",
@@ -9,7 +15,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {"FirebaseAdminSDK\\": "src/"}
+        "classmap": ["src"]
     },
     "require": {
         "firebase/php-jwt": "^4.0"
