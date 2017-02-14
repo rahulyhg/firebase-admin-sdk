@@ -3,6 +3,7 @@
     "description": "Firebase Admin SDK",
     "homepage": "https://github.com/x1125/firebase-admin-sdk",
     "license": "MIT",
+    "version": "1.0.0",
     "keywords": [
         "firebase",
         "REST",
